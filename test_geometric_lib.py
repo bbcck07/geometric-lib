@@ -48,7 +48,7 @@ class CircleTestCase(unittest.TestCase):
 
 class RectangleTestCase(unittest.TestCase):
     def test_area_usual(self):
-        self.assertEqual(rectangle.area(3, 4), 12)
+        self.assertEqual(rectangle.area(3, 4), 13)
 
     def test_area_zero(self):
         self.assertEqual(rectangle.area(10, 0), 0)
